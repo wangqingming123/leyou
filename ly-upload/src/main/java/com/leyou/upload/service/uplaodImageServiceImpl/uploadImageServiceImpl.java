@@ -67,6 +67,7 @@ public class uploadImageServiceImpl  implements uploadImageService  {
             //上传到fastDFS
             StorePath storePath = fastFileStorageClient.uploadFile(file.getInputStream(), file.getSize(), suffix, null);
             System.out.println(storePath);
+            System.out.println(storePath.getFullPath());
             //返回服务器url地址
             return "image.leyou.com/"+storePath.getFullPath();
 
