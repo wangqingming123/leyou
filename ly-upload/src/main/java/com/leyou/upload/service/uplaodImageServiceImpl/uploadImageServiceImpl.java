@@ -68,6 +68,7 @@ public class uploadImageServiceImpl  implements uploadImageService  {
             StorePath storePath = fastFileStorageClient.uploadFile(file.getInputStream(), file.getSize(), suffix, null);
             System.out.println(storePath);
             System.out.println(storePath.getFullPath());
+            System.out.println("分支dev");
             //返回服务器url地址
             return "image.leyou.com/"+storePath.getFullPath();
 
