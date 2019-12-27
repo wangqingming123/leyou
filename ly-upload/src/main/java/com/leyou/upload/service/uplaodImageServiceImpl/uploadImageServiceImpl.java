@@ -70,6 +70,7 @@ public class uploadImageServiceImpl  implements uploadImageService  {
             System.out.println(storePath.getFullPath());
             System.out.println("分支dev +处理冲突，当前分支 master");
             //返回服务器url地址
+            System.out.println("Dev 分支提交代码 不同电脑测试 ");
             return "image.leyou.com/"+storePath.getFullPath();
 
         }catch (Exception e){
