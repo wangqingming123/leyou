@@ -63,6 +63,18 @@
             <artifactId>ly-common</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <!--添加swagger的依赖-->
+        <!-- 导入swagger2的包-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.8.0</version>
+        </dependency>
     </dependencies>
 
 
