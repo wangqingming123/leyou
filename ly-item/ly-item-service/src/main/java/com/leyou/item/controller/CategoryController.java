@@ -34,6 +34,7 @@ public class CategoryController {
         if (CollectionUtils.isEmpty(categories)) {
             return ResponseEntity.notFound().build();
         }
+        System.out.println("111");
         return ResponseEntity.ok(categories);
     }
 }
