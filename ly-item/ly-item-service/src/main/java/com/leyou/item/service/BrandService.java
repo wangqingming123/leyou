@@ -15,4 +15,5 @@ public interface BrandService {
     * 新增品牌信息
     * */
     void saveBrand(Brand brand, List<Long> cids);
+
 }
